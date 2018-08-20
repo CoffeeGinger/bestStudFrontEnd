@@ -9,7 +9,7 @@ class MarkdownRender extends React.Component {
   }
   render() {
     //evtl gefährlich
-    return <div dangerouslySetInnerHTML={this.getMarkdown()} />;
+    return <div />;
   }
 }
 

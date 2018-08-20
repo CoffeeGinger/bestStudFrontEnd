@@ -43,7 +43,7 @@ class PraesentationsSicht extends Component {
         </div>
         <div class="midColumn">
             <PraesentationFolie 
-              inhalt={this.props.folien[this.state.currentFolie]}/>
+              inhalt={null}/>
         </div>
         <div className="rightColumn">
           <Facecam />

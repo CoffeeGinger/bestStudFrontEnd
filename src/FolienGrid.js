@@ -13,21 +13,21 @@ const tilesData = []; //tbd
 
 function FolienGrid(props) {
 
-  const expFolien = props.folien.map( (n, index) =>
-    <div  key={index}>
-      <ListItem
-        primaryText={"Folie " + (index + 1)}
-        leftIcon={<ContentInbox />}
-        onClick={()=> props.onClick(index)}
-      />
-    </div> );
+  // const expFolien = props.folien.map( (n, index) =>
+  //   <div  key={index}>
+  //     <ListItem
+  //       primaryText={"Folie " + (index + 1)}
+  //       leftIcon={<ContentInbox />}
+  //       onClick={()=> props.onClick(index)}
+  //     />
+  //   </div> );
 
   return (
       <div style={{height: "inherit"}}>
       <Paper id="FolienGrid" zDepth={3}
         style={{maxHeight: "60em", overflow: 'auto'}}>
         <List>
-          { expFolien }
+          { null }
        </List>
       </Paper>
     </div>

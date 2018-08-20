@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint": "^5.4.0",
     "global": "^4.3.2",
     "marked": "^0.3.17",
     "material-ui": "^0.20.0",
