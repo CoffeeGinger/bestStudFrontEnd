@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ActionBar from './ActionBar'
 
-// Nur ein Beispiel
+//test Nur ein Beispiel
 function About(props) {
     return (
       <div>
